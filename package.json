@@ -39,8 +39,7 @@
     "build": "./node_modules/babel-cli/bin/babel.js source --presets babel-preset-env -s --out-dir distribution",
     "watch": "./node_modules/babel-cli/bin/babel.js source -w --presets babel-preset-env -s --out-dir distribution",
     "document": "jsdoc ./source -r -d docs",
-    "postinstall": "npm run build",
-    "preinstall": "npm run test"
+    "prepublish": "npm run test;npm run build"
   },
   "dependencies": {
     "deepmerge": "3.0.0",
