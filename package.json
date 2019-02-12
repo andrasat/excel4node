@@ -15,7 +15,7 @@
     "workbook",
     "ooxml"
   ],
-  "main": "./source/index.js",
+  "main": "./distribution/index.js",
   "author": {
     "name": "Nater",
     "email": "nater@iamnater.com"
